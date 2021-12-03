@@ -19,7 +19,7 @@
   <%# <%= submit_tag("Submit") %> 
 <%# <% end %> 
 
-<%= form_with(model: @user, method: "post") do |form| %> 
+<%= form_with(model: @user, method: "patch") do |form| %> 
   <%= form.label :username, "Username:" %> 
   <%= form.text_field :username %> 
   <%= form.label :email, "Email:" %> 
